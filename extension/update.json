@@ -2,16 +2,16 @@
   "payload": {
     "product": "JetDownExtension",
     "protocolVersion": 1,
-    "version": "1.0.3",
+    "version": "1.0.4",
     "date": "2026-11-02",
     "minAppVersion": "1.11.1",
     "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAufRBClzvv4zc5xPUFQVwd70Bkdwrga2bdAtdyP3EpULdysuSmFvIQ/+XBlGik+7gH9BfTFu36B3UQiPt7eLUSFxYoKn1g2z7pdzGEL8Y34gnNeLyNzWX8onKn8N7u4TQJK+O+bQQBFzAqyrQobDdHgq1/zLAtysV/4LKz45/LWGNdUHQSqWqf6aPcKMulYKeK6eI8qbZBNi6UsWFp2QqRjgIajwsUar3Y7DDWs3RjtwsvK94hS9+SrsiHTD/BhMmsLeNiZlhL2h96mmYNvr50dwDSVEFMJKL2VtVJzN4BrH6/tkHexs0fmP/kV7u7q64JB72ISKeAFzrDBTADzxntQIDAQAB",
-    "archive": "JetDownExtension-1.0.3.zip",
-    "archiveHash": "aaefef21702343e0e6ae3008b20d43f617760890c9e6f66922b85b8b01b9321e",
+    "archive": "JetDownExtension-1.0.4.zip",
+    "archiveHash": "30bfd3a603e67a63cbfff37e566d6a0d0b16c0d3a18794fe00efe0d5b106380f",
     "changes": [
-      "Actualizaciones desde internet: JetDown descarga de GitHub la versión firmada y la comprueba antes de instalarla.",
-      "El botón Actualizar avisa cuando hay versión nueva («Actualizar a X»).",
-      "Sin conexión sigue sirviendo la carpeta local de actualizaciones."
+      "Busca sola si hay versión nueva al abrir el navegador y el panel, y cada 6 horas; el icono muestra «1» cuando la hay.",
+      "Nuevo apartado Actualizaciones en Ajustes: buscar al abrir, buscar periódicamente (nunca a cada día) y Buscar ahora. Todo activado por defecto.",
+      "La búsqueda solo lee de GitHub el número de la última versión; instalar sigue pidiendo confirmación."
     ],
     "files": [
       {
@@ -21,23 +21,23 @@
       },
       {
         "path": "background.js",
-        "size": 726,
-        "sha256": "9505d4919af2800a1cc7f2c1795e42cfe2fb7682ae73d3720db299b09ab79bf2"
+        "size": 3319,
+        "sha256": "97ab6c5d141acf2b3834cbda2a4ac3a749621ac69c259aa1cc41b1e1a7ee72ed"
       },
       {
         "path": "common.js",
-        "size": 4705,
-        "sha256": "a45773ee129f57af547453b5e42d55fc1467acc17b15a31310489862cb1dbb5c"
+        "size": 4764,
+        "sha256": "331a8760837d56ce42a86b0298cea4604b6355ecfaa4fbca97c1e23d80b9e7e5"
       },
       {
         "path": "manifest.json",
-        "size": 1019,
-        "sha256": "ff6f7b6a061b5c3088ec659b5a6688b34c50dafb0131b1b6c7d4bf563ab067f8"
+        "size": 1033,
+        "sha256": "06579a66dc9b240e722855961665ca55e9f0b38884767a659d711a5e72cfe2c5"
       },
       {
         "path": "manual.html",
-        "size": 4376,
-        "sha256": "abd861b8cafebbebd9d1f593b2f15949f82cbfa190b42d95896194e874cd7ed3"
+        "size": 4561,
+        "sha256": "d376894a25b293328ceddb27bb53a993919a6363f3174a7922dcf8e7bc20889d"
       },
       {
         "path": "manual.js",
@@ -51,23 +51,23 @@
       },
       {
         "path": "options.html",
-        "size": 1717,
-        "sha256": "4e7bc91366dc42bdc3ee0929e1aa02450bd088e201cb153c6120cc05fb533599"
+        "size": 2465,
+        "sha256": "789362a96105550fd40114ad741009c878f2c6bfbdc10901c2fe74b25b54148c"
       },
       {
         "path": "options.js",
-        "size": 6027,
-        "sha256": "2b230c8998a02c4ace2fe935f72fec064ea2d818578399fbbf8f120bd9065a37"
+        "size": 7935,
+        "sha256": "7dda2f0c304a5cd20f6c32e39dfcee11dc49bad757c4b8067efc8da84927848a"
       },
       {
         "path": "popup.html",
-        "size": 1617,
-        "sha256": "921af22cf1f4fb8dbec580c284f999306479082a0660d7247a376799cc7b7652"
+        "size": 1651,
+        "sha256": "2b89ccbbee7f8f8f50792cbe2aebdce6e0397a7fba3b3d48bd40da5ca1f51723"
       },
       {
         "path": "popup.js",
-        "size": 4096,
-        "sha256": "41d1b93667e580b9a7ea7ba1ff940afe1a219cdaaeb7b04883456a57d88bcd83"
+        "size": 4094,
+        "sha256": "26d79baf46f945cd52eea53e68be7e7cb7b50fd89c0bf0b617fb24a24cf8a339"
       },
       {
         "path": "style.css",
@@ -75,11 +75,16 @@
         "sha256": "62e312e3893f9999b3d46c462c1e44fa1e1ed0ea44976c9fed99dd1a93a3f5b9"
       },
       {
+        "path": "updates.js",
+        "size": 1939,
+        "sha256": "57f1564ba497b17e537aa624ea9469675670e89faf3c6474e838bbb6dac4b40d"
+      },
+      {
         "path": "version.json",
-        "size": 1737,
-        "sha256": "b1c9ec64af015b7362414e0b7530c5031e0343df90d7bc859a0fa0fe5f86d9a9"
+        "size": 2236,
+        "sha256": "6a70052014965b6f28f8e4b42146c250a3b6a0b6d2302e9e7efc1de54fc936c4"
       }
     ]
   },
-  "signature": "nfAQJNW3liGjiQ+K6IxQJ2PTmuK6nW0UyFsSbunHHsthBcM93TqeyqyDAhvGT8N8UP1nWYPJircqRhBDxsLBCw=="
+  "signature": "Qe2C/G1/qJLqV5ivITvMTuJOz6Kz4Kmqf8IuiEG6mJDoNQgQtXx/rYeT5snBEXrAXknJv6qSom0G0Lng9N+fAg=="
 }
