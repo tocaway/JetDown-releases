@@ -1,0 +1,18 @@
+{
+  "version": "1.12.0",
+  "published": "2026-11-02",
+  "notes": [
+    "JetDown se actualiza desde internet: avisa al abrirse si hay versión nueva, muestra los cambios y se instala al pulsar Actualizar.",
+    "Cada versión va firmada; antes de instalar se comprueban la firma, la huella del paquete y la firma de la app.",
+    "Nuevo apartado Ajustes → Actualizaciones: buscar al abrir, buscar ahora y volver a la versión anterior. También en el menú JetDown → Buscar actualizaciones…",
+    "La extensión se actualiza también desde internet (GitHub); sin conexión sigue sirviendo la carpeta local."
+  ],
+  "packages": {
+    "mac": {
+      "file": "JetDown-1.12.0-arm64.zip",
+      "size": 189119264,
+      "sha256": "7e24ada27e4c7a6dcb568f9e593dac1ab0fd97ee2c9b9380971a011b7345ba82",
+      "signature": "nz/SZOg7WzwYFZgyRgSi7u24wKlLvjy9nlfSksNt2js4FFiAI53AlCMr4htPX5ICOhHPd9rvr+8SlPF3e4vxDg=="
+    }
+  }
+}
