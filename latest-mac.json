@@ -1,18 +1,17 @@
 {
-  "version": "1.12.0",
+  "version": "1.12.1",
   "published": "2026-11-02",
   "notes": [
-    "JetDown se actualiza desde internet: avisa al abrirse si hay versión nueva, muestra los cambios y se instala al pulsar Actualizar.",
-    "Cada versión va firmada; antes de instalar se comprueban la firma, la huella del paquete y la firma de la app.",
-    "Nuevo apartado Ajustes → Actualizaciones: buscar al abrir, buscar ahora y volver a la versión anterior. También en el menú JetDown → Buscar actualizaciones…",
-    "La extensión se actualiza también desde internet (GitHub); sin conexión sigue sirviendo la carpeta local."
+    "JetDown vuelve a buscar actualizaciones cada 6 horas mientras está abierto, además de al abrirse; si la ventana está cerrada, avisa con una notificación.",
+    "Nuevo ajuste Buscar periódicamente (nunca, cada hora, 6 horas, 12 horas o cada día); por defecto, cada 6 horas.",
+    "La extensión busca sola su versión nueva al abrir el navegador y cada 6 horas, sin necesidad de abrir JetDown."
   ],
   "packages": {
     "mac": {
-      "file": "JetDown-1.12.0-arm64.zip",
-      "size": 189119264,
-      "sha256": "7e24ada27e4c7a6dcb568f9e593dac1ab0fd97ee2c9b9380971a011b7345ba82",
-      "signature": "nz/SZOg7WzwYFZgyRgSi7u24wKlLvjy9nlfSksNt2js4FFiAI53AlCMr4htPX5ICOhHPd9rvr+8SlPF3e4vxDg=="
+      "file": "JetDown-1.12.1-arm64.zip",
+      "size": 189119998,
+      "sha256": "768f4001113b48e69ead298ddf2bf4ef34f9030a124beb79343a4eb84c402cca",
+      "signature": "FwwU/nXb8tLqboBswQx7CdwQDV2htzJFd2ov40p33VQkj05UjnN2rOZ105iedw5Rj9GWWic6AI8Qj3sSZfxQCw=="
     }
   }
 }
