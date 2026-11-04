@@ -2,16 +2,14 @@
   "payload": {
     "product": "JetDownExtension",
     "protocolVersion": 1,
-    "version": "1.0.4",
-    "date": "2026-11-02",
+    "version": "1.0.5",
+    "date": "2026-11-04",
     "minAppVersion": "1.11.1",
     "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAufRBClzvv4zc5xPUFQVwd70Bkdwrga2bdAtdyP3EpULdysuSmFvIQ/+XBlGik+7gH9BfTFu36B3UQiPt7eLUSFxYoKn1g2z7pdzGEL8Y34gnNeLyNzWX8onKn8N7u4TQJK+O+bQQBFzAqyrQobDdHgq1/zLAtysV/4LKz45/LWGNdUHQSqWqf6aPcKMulYKeK6eI8qbZBNi6UsWFp2QqRjgIajwsUar3Y7DDWs3RjtwsvK94hS9+SrsiHTD/BhMmsLeNiZlhL2h96mmYNvr50dwDSVEFMJKL2VtVJzN4BrH6/tkHexs0fmP/kV7u7q64JB72ISKeAFzrDBTADzxntQIDAQAB",
-    "archive": "JetDownExtension-1.0.4.zip",
-    "archiveHash": "30bfd3a603e67a63cbfff37e566d6a0d0b16c0d3a18794fe00efe0d5b106380f",
+    "archive": "JetDownExtension-1.0.5.zip",
+    "archiveHash": "2af08330395dd45cdfe2e23b86017936cd81915782e37e0a4ca3adba04bed5ae",
     "changes": [
-      "Busca sola si hay versión nueva al abrir el navegador y el panel, y cada 6 horas; el icono muestra «1» cuando la hay.",
-      "Nuevo apartado Actualizaciones en Ajustes: buscar al abrir, buscar periódicamente (nunca a cada día) y Buscar ahora. Todo activado por defecto.",
-      "La búsqueda solo lee de GitHub el número de la última versión; instalar sigue pidiendo confirmación."
+      "Textos para Windows: la extensión funciona con JetDown para Windows 1.13.0 (Chrome, Edge, Brave, Chromium y Vivaldi)."
     ],
     "files": [
       {
@@ -32,12 +30,12 @@
       {
         "path": "manifest.json",
         "size": 1033,
-        "sha256": "06579a66dc9b240e722855961665ca55e9f0b38884767a659d711a5e72cfe2c5"
+        "sha256": "d535f4ada935e1f22e92a704a7214b5f801642a16dab412d76331cdfd253a727"
       },
       {
         "path": "manual.html",
-        "size": 4561,
-        "sha256": "d376894a25b293328ceddb27bb53a993919a6363f3174a7922dcf8e7bc20889d"
+        "size": 4753,
+        "sha256": "8c646323363488ba8ad6f6cca5aaf1b27de7a49730a43636bf91294c234fd920"
       },
       {
         "path": "manual.js",
@@ -51,8 +49,8 @@
       },
       {
         "path": "options.html",
-        "size": 2465,
-        "sha256": "789362a96105550fd40114ad741009c878f2c6bfbdc10901c2fe74b25b54148c"
+        "size": 2499,
+        "sha256": "1cf108a8503df05be009e810294f0211218787f043e5429d041965f9db721d3c"
       },
       {
         "path": "options.js",
@@ -81,10 +79,10 @@
       },
       {
         "path": "version.json",
-        "size": 2236,
-        "sha256": "6a70052014965b6f28f8e4b42146c250a3b6a0b6d2302e9e7efc1de54fc936c4"
+        "size": 2459,
+        "sha256": "bb1b70032a722a9652a738157a98291206a9b646c737b17821f7108fe7fd30d5"
       }
     ]
   },
-  "signature": "Qe2C/G1/qJLqV5ivITvMTuJOz6Kz4Kmqf8IuiEG6mJDoNQgQtXx/rYeT5snBEXrAXknJv6qSom0G0Lng9N+fAg=="
+  "signature": "B7edRLQU9SFZIBRQgZFDYSRvPW4eY81TmzKWankd1ENxOmYinFc/K8YCN1g3ffzLulavwDPWJb09GSiObvD9Aw=="
 }
