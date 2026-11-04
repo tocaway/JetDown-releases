@@ -1,17 +1,15 @@
 {
-  "version": "1.13.1",
+  "version": "1.13.2",
   "published": "2026-11-04",
   "notes": [
-    "Windows: botones de minimizar, maximizar y cerrar pequeños y transparentes, sobre el fondo de la app.",
-    "Windows: las listas desplegables de Ajustes vuelven a mostrar sus opciones.",
-    "Windows: la interfaz responde al instante; se quitan el desenfoque en vivo, el fondo animado y el relieve 3D, que retrasaban cada clic."
+    "Windows: al actualizar o volver a la versión anterior ya no se abren ventanas de terminal; el cambio de versión se hace oculto y queda registrado en cambiar-version.log."
   ],
   "packages": {
     "windows": {
-      "file": "JetDown-1.13.1-Setup.exe",
-      "size": 152659365,
-      "sha256": "6bdd80f72cfac9ef9bb4e4caaac32c9b5b60dc22940279956c2acd98001e9416",
-      "signature": "4B5RN+wI3SXt7a6EZDYqXJOB/j/674axhEXxwdOhIzoFlpoZJ524LWu3DQ0Ba1qe0UXGT5HCg7dfay9/MzOnAg=="
+      "file": "JetDown-1.13.2-Setup.exe",
+      "size": 152659978,
+      "sha256": "2b3a5b423f8de2d6186ed30d43e423caac09fda79d4fb653bf1eb8be0ceef6bf",
+      "signature": "76PYPUnFJwxIDQbG1xgMzhSol+1vpiN4s5iqPZergd5ueTPOPkY/cbRG17s6C1tbZU0Jhz/EdXTIMXw/PFXPCw=="
     }
   }
 }
