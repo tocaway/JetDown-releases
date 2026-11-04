@@ -1,17 +1,18 @@
 {
-  "version": "1.12.1",
-  "published": "2026-11-02",
+  "version": "1.13.0",
+  "published": "2026-11-04",
   "notes": [
-    "JetDown vuelve a buscar actualizaciones cada 6 horas mientras está abierto, además de al abrirse; si la ventana está cerrada, avisa con una notificación.",
-    "Nuevo ajuste Buscar periódicamente (nunca, cada hora, 6 horas, 12 horas o cada día); por defecto, cada 6 horas.",
-    "La extensión busca sola su versión nueva al abrir el navegador y cada 6 horas, sin necesidad de abrir JetDown."
+    "Nueva versión para Windows 10 y 11: la misma app, con instalador propio (JetDown-X.Y.Z-Setup.exe).",
+    "Windows: actualizaciones firmadas desde GitHub, búsqueda al abrir y cada 6 horas, y vuelta a la versión anterior.",
+    "Windows: conector con la extensión para Chrome, Edge, Brave, Chromium y Vivaldi, también en segundo plano.",
+    "Manual con las instrucciones de Windows (atajos con Ctrl, Explorador de archivos, SmartScreen)."
   ],
   "packages": {
     "mac": {
-      "file": "JetDown-1.12.1-arm64.zip",
-      "size": 189119998,
-      "sha256": "768f4001113b48e69ead298ddf2bf4ef34f9030a124beb79343a4eb84c402cca",
-      "signature": "FwwU/nXb8tLqboBswQx7CdwQDV2htzJFd2ov40p33VQkj05UjnN2rOZ105iedw5Rj9GWWic6AI8Qj3sSZfxQCw=="
+      "file": "JetDown-1.13.0-arm64.zip",
+      "size": 189124471,
+      "sha256": "bf1734cbd3a24b45b88e5886fef0a9f3b45626176da8aa4bdb7063fb81e9ecda",
+      "signature": "cuwaXi5k3y0xMq0jHUd+jY3q9fpLrZVY6aCbZsbW+f3HIDZQlUwOozDdWLeGceP6kWuQWlxYMy/yAswPMsV6DQ=="
     }
   }
 }
