@@ -1,18 +1,17 @@
 {
-  "version": "1.13.0",
+  "version": "1.13.1",
   "published": "2026-11-04",
   "notes": [
-    "Nueva versión para Windows 10 y 11: la misma app, con instalador propio (JetDown-X.Y.Z-Setup.exe).",
-    "Windows: actualizaciones firmadas desde GitHub, búsqueda al abrir y cada 6 horas, y vuelta a la versión anterior.",
-    "Windows: conector con la extensión para Chrome, Edge, Brave, Chromium y Vivaldi, también en segundo plano.",
-    "Manual con las instrucciones de Windows (atajos con Ctrl, Explorador de archivos, SmartScreen)."
+    "Windows: botones de minimizar, maximizar y cerrar pequeños y transparentes, sobre el fondo de la app.",
+    "Windows: las listas desplegables de Ajustes vuelven a mostrar sus opciones.",
+    "Windows: la interfaz responde al instante; se quitan el desenfoque en vivo, el fondo animado y el relieve 3D, que retrasaban cada clic."
   ],
   "packages": {
     "windows": {
-      "file": "JetDown-1.13.0-Setup.exe",
-      "size": 152658640,
-      "sha256": "ac7efa41bbd640908cb585f92d6691214137182abd37f84249f0457bf0b44edc",
-      "signature": "glr1b6ROM9+0Wnu+zQbHLzxfYOsVnA7Mw2Ph1UnK+eNNmv7cVzuzYG3DDB4BXel3WcqZUl/C3DgZF7WtNvl5Dg=="
+      "file": "JetDown-1.13.1-Setup.exe",
+      "size": 152659365,
+      "sha256": "6bdd80f72cfac9ef9bb4e4caaac32c9b5b60dc22940279956c2acd98001e9416",
+      "signature": "4B5RN+wI3SXt7a6EZDYqXJOB/j/674axhEXxwdOhIzoFlpoZJ524LWu3DQ0Ba1qe0UXGT5HCg7dfay9/MzOnAg=="
     }
   }
 }
