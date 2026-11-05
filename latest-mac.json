@@ -1,18 +1,16 @@
 {
-  "version": "1.13.0",
-  "published": "2026-11-04",
+  "version": "1.13.3",
+  "published": "2026-11-05",
   "notes": [
-    "Nueva versión para Windows 10 y 11: la misma app, con instalador propio (JetDown-X.Y.Z-Setup.exe).",
-    "Windows: actualizaciones firmadas desde GitHub, búsqueda al abrir y cada 6 horas, y vuelta a la versión anterior.",
-    "Windows: conector con la extensión para Chrome, Edge, Brave, Chromium y Vivaldi, también en segundo plano.",
-    "Manual con las instrucciones de Windows (atajos con Ctrl, Explorador de archivos, SmartScreen)."
+    "Al abrir JetDown la conexión con la extensión se registra sola (Chrome, Edge, Brave, Chromium y Vivaldi): ya no hace falta Configurar conexión para que funcione.",
+    "Configurar conexión queda para elegir la carpeta de la extensión, la que usa JetDown para actualizarla."
   ],
   "packages": {
     "mac": {
-      "file": "JetDown-1.13.0-arm64.zip",
-      "size": 189124471,
-      "sha256": "bf1734cbd3a24b45b88e5886fef0a9f3b45626176da8aa4bdb7063fb81e9ecda",
-      "signature": "cuwaXi5k3y0xMq0jHUd+jY3q9fpLrZVY6aCbZsbW+f3HIDZQlUwOozDdWLeGceP6kWuQWlxYMy/yAswPMsV6DQ=="
+      "file": "JetDown-1.13.3-arm64.zip",
+      "size": 189126323,
+      "sha256": "a0766ef9f7b44d13efca5a3fde3f2bebe17e3913ba46f57a1010fb77f4286bb9",
+      "signature": "foXuLucS9hT8Z5dNs6YqY6PrxwWt9RIo2EbBXnnGxaw8bkey2JTZyRifliwawYccSBiHW4TvHZubtjbFvKGeBw=="
     }
   }
 }
