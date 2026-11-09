@@ -1,16 +1,17 @@
 {
-  "version": "1.13.3",
-  "published": "2026-11-05",
+  "version": "1.14.0",
+  "published": "2026-11-09",
   "notes": [
-    "Al abrir JetDown la conexión con la extensión se registra sola (Chrome, Edge, Brave, Chromium y Vivaldi): ya no hace falta Configurar conexión para que funcione.",
-    "Configurar conexión queda para elegir la carpeta de la extensión, la que usa JetDown para actualizarla."
+    "Al buscar actualizaciones, JetDown busca a la vez la versión nueva de la app y la de la extensión, y un solo Actualizar instala las dos.",
+    "Desde la extensión del navegador también se puede actualizar la app: JetDown se descarga, se cierra y se vuelve a abrir solo.",
+    "La extensión viene dentro de JetDown: al abrirlo por primera vez pregunta si quieres instalarla y te guía paso a paso (también en Ajustes → Motor → Instalar extensión)."
   ],
   "packages": {
     "windows": {
-      "file": "JetDown-1.13.3-Setup.exe",
-      "size": 152660326,
-      "sha256": "0da49c276854d22b5c322ce3e0cb9bb181bb8c5b558a16028945c6ae5f9543a2",
-      "signature": "nPyUq60fcW0v2y2tKJOKTxT+PEgn71m+nVJTlN2rsVcrloVsQnlp1KXFbiLRmVi7s/G5klLWk8QapsB7wDSGCg=="
+      "file": "JetDown-1.14.0-Setup.exe",
+      "size": 152752773,
+      "sha256": "6dc33c7641edf4095a91f51c84bcc91adb6b4286db5f734489da2b478aaf7978",
+      "signature": "RVVR0POVSTR7eziXalp0uSh6sNZLk75LV9eCtyb1eQe/wlO6CggZqwv7i0CSN8n2qvZLL/0A2EVf5MVx6VkVDw=="
     }
   }
 }
