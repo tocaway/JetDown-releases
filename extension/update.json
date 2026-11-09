@@ -2,14 +2,16 @@
   "payload": {
     "product": "JetDownExtension",
     "protocolVersion": 1,
-    "version": "1.0.5",
-    "date": "2026-11-04",
+    "version": "1.0.6",
+    "date": "2026-11-08",
     "minAppVersion": "1.11.1",
     "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAufRBClzvv4zc5xPUFQVwd70Bkdwrga2bdAtdyP3EpULdysuSmFvIQ/+XBlGik+7gH9BfTFu36B3UQiPt7eLUSFxYoKn1g2z7pdzGEL8Y34gnNeLyNzWX8onKn8N7u4TQJK+O+bQQBFzAqyrQobDdHgq1/zLAtysV/4LKz45/LWGNdUHQSqWqf6aPcKMulYKeK6eI8qbZBNi6UsWFp2QqRjgIajwsUar3Y7DDWs3RjtwsvK94hS9+SrsiHTD/BhMmsLeNiZlhL2h96mmYNvr50dwDSVEFMJKL2VtVJzN4BrH6/tkHexs0fmP/kV7u7q64JB72ISKeAFzrDBTADzxntQIDAQAB",
-    "archive": "JetDownExtension-1.0.5.zip",
-    "archiveHash": "2af08330395dd45cdfe2e23b86017936cd81915782e37e0a4ca3adba04bed5ae",
+    "archive": "JetDownExtension-1.0.6.zip",
+    "archiveHash": "c2e59028f4d7664360c43509920e21b88ba1a04346cd5b2d8e2f646505085092",
     "changes": [
-      "Textos para Windows: la extensión funciona con JetDown para Windows 1.13.0 (Chrome, Edge, Brave, Chromium y Vivaldi)."
+      "La extensión busca también la versión nueva de la app JetDown: el icono muestra cuántas actualizaciones hay (1 o 2).",
+      "Un solo botón Actualizar instala todo lo pendiente: la extensión y la app (JetDown se descarga, se cierra y se vuelve a abrir solo).",
+      "Si JetDown actualiza la extensión desde la app, la extensión se recarga sola."
     ],
     "files": [
       {
@@ -19,23 +21,23 @@
       },
       {
         "path": "background.js",
-        "size": 3319,
-        "sha256": "97ab6c5d141acf2b3834cbda2a4ac3a749621ac69c259aa1cc41b1e1a7ee72ed"
+        "size": 5067,
+        "sha256": "6b33a16d2a87ca609f5f76f21a9526f1ebcfbce5989e79042af35cec46f832b5"
       },
       {
         "path": "common.js",
-        "size": 4764,
-        "sha256": "331a8760837d56ce42a86b0298cea4604b6355ecfaa4fbca97c1e23d80b9e7e5"
+        "size": 7738,
+        "sha256": "b7a44015d90dff05ff9edbb51b42d5e3f1e908d75458662c4e9270ac17d89782"
       },
       {
         "path": "manifest.json",
         "size": 1033,
-        "sha256": "d535f4ada935e1f22e92a704a7214b5f801642a16dab412d76331cdfd253a727"
+        "sha256": "a2686da3b3dead3979507cb3e1743a666090fc4b7735909ed28069ab05ebde55"
       },
       {
         "path": "manual.html",
-        "size": 4753,
-        "sha256": "8c646323363488ba8ad6f6cca5aaf1b27de7a49730a43636bf91294c234fd920"
+        "size": 5050,
+        "sha256": "1b243f2096f721c049718f7c419a5572d9ab5e740cb80a91a0917c2e5927a61d"
       },
       {
         "path": "manual.js",
@@ -49,13 +51,13 @@
       },
       {
         "path": "options.html",
-        "size": 2499,
-        "sha256": "1cf108a8503df05be009e810294f0211218787f043e5429d041965f9db721d3c"
+        "size": 2488,
+        "sha256": "3c8a06217651caf6ac235dd9267b86cfb243223d95b61e7601c410972ebf5b7a"
       },
       {
         "path": "options.js",
-        "size": 7935,
-        "sha256": "7dda2f0c304a5cd20f6c32e39dfcee11dc49bad757c4b8067efc8da84927848a"
+        "size": 7983,
+        "sha256": "f77e634958eeda4a2e3e1526a84f8222c67e152cb5a38a0b2934df80397ed0f7"
       },
       {
         "path": "popup.html",
@@ -64,8 +66,8 @@
       },
       {
         "path": "popup.js",
-        "size": 4094,
-        "sha256": "26d79baf46f945cd52eea53e68be7e7cb7b50fd89c0bf0b617fb24a24cf8a339"
+        "size": 4136,
+        "sha256": "538a511b87e45045589ed8a5e10122019c4ee40250fb5e1a303ce3dc85fd9956"
       },
       {
         "path": "style.css",
@@ -74,15 +76,15 @@
       },
       {
         "path": "updates.js",
-        "size": 1939,
-        "sha256": "57f1564ba497b17e537aa624ea9469675670e89faf3c6474e838bbb6dac4b40d"
+        "size": 2513,
+        "sha256": "f1f57f7b37b406cbea3fd9fb11aed32f6dcbabc1d6edab83a8d8eae483f24797"
       },
       {
         "path": "version.json",
-        "size": 2459,
-        "sha256": "bb1b70032a722a9652a738157a98291206a9b646c737b17821f7108fe7fd30d5"
+        "size": 2921,
+        "sha256": "476e5ec750460097b19d6d0bb5cf918ef03ac0b1d582fec633c473eef7ec561f"
       }
     ]
   },
-  "signature": "B7edRLQU9SFZIBRQgZFDYSRvPW4eY81TmzKWankd1ENxOmYinFc/K8YCN1g3ffzLulavwDPWJb09GSiObvD9Aw=="
+  "signature": "5m2N/CalNAmRdQxBKdRpPbfu/099tc509QNd445Gi3wQnKivuxlG1IalCstzaDS1K/82FOxfEkKVPy5LYhq1BQ=="
 }
